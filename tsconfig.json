@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "commonjs",
+        "target": "es2020",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "rootDir": "src",
+        "baseUrl": "src",
+        "strict": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "paths": {
+            "@data/*": [
+                "./data/*"
+            ],
+            "@domain/*": [
+                "./domain/*"
+            ],
+            "@infra/*": [
+                "./infra/*"
+            ],
+            "@main/*": [
+                "./main/*"
+            ],
+            "@presentation/*": [
+                "./presentation/*"
+            ],
+            "@validation/*": [
+                "./validation/*"
+            ]
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": []
+}
